@@ -1,0 +1,10 @@
+projection;
+strict ( 1 );
+
+define behavior for ZC_ASSB_0000 //alias <alias_name>
+{
+  use create;
+  use update;
+  use delete;
+  use action calc_value;
+}

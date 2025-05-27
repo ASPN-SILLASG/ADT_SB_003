@@ -1,0 +1,37 @@
+managed implementation in class zbp_r_assb_0002 unique;
+strict ( 1 );
+
+define behavior for ZR_ASSB_0002 alias subula
+persistent table zassbt0002
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  field ( numbering : managed, readonly )
+  Uuid;
+
+  mapping for zassbt0002
+    {
+      uuid    = uuid;
+      spmon   = spmon;
+      kalnr   = kalnr;
+      matnr   = matnr;
+      bwkey   = bwkey;
+      bklas   = bklas;
+      zsfld   = zsfld;
+      racct   = racct;
+      ktosl   = ktosl;
+      reftxt  = reftxt;
+      meins   = meins;
+      waers   = waers;
+      menge   = menge;
+      dmbtr   = dmbtr;
+      dmbtr1  = dmbtr1;
+      dmbtr2  = dmbtr2;
+      dmbtr3  = dmbtr3;
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "수불부 업데이트",
+    "originalLanguage": "ko",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "com.dine.mm.zmm0002"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_D8BA232115AD7BB1917DE6AF725BCFC943EF0BB0_TM",
+    "semanticObject": "ZCBO_MM_0002",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_D8BA232115AD7BB1917DE6AF725BCFC943EF0BB0_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "수불부 업데이트"
+      }
+    }
+  ]
+}
