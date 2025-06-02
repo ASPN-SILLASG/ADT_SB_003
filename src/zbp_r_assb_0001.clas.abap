@@ -1,12 +1,4 @@
-class ZBP_R_ASSB_0001 definition
-  public
-  abstract
-  final
-  create public .
-
-public section.
-protected section.
-private section.
+CLASS zbp_r_assb_0001 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zr_assb_0001.
 ENDCLASS.
 
 
